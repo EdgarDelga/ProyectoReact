@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(5, 23, 36);
+}
+
+.img-nav{
+    width: 40px;
+    transition: ease-in .1s;
+}
+
+.img-nav:hover{
+    width: 45px;
+}
+
+.color-nav{
+    background-color: rgb(10, 29, 43) ;
+}
+
+.color-navTXT{
+    color: aliceblue;
+}
+
+.titulos{
+    color: aliceblue;
+}
