@@ -21,17 +21,18 @@ body{
 
 .titulos{
     color: aliceblue;
-    opacity: 1;
-    animation: animacionTxts .5s;
+    opacity: 0;
+    animation: animacionTxts 1s forwards;
+    transition: ease-in .5;
     position: relative;
 }
 
 @keyframes animacionTxts {
 
-    0%{ opacity: 1;}
-    25%{}
-    50%{}
-    75%{}
-    100%{transform: translateX(20%); position: absolute;}
+    100%{transform: translateX(20%) translateY(50%); opacity: 1}
 
+}
+
+.animacion{
+    animation: animacionTxts 1s forwards;
 }
