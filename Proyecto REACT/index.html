@@ -6,7 +6,11 @@
     <title>React</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="Resources/img/React-icon.svg.png" href="favicon.png">
+    <link rel="/Resources/img/React-icon.svg.png" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&family=Nova+Square&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg color-nav">
@@ -20,7 +24,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link color-navTXT" aria-current="page" href="#">Home</a>
+                <a class="nav-link color-navTXT" aria-current="page" href="#Home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link color-navTXT" href="#">Historia</a>
@@ -91,10 +95,85 @@
       </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-8">
-            <h1 class="titulos">Inicio</h1>
+        <div class="col-5">
+            <h1 class="titulos" id="Home">REACT</h1>
+            <p class="titulos">"Learn React Once and Write Everywhere" </p>
         </div>
       </div>
+
+      <div class="row">
+
+        <div class="col-8">
+            <h3 class="titulos">¿Qué es?</h3>
+            <p class="titulos">Se trata de una librería web para interfaces de usuario. Como tambien el uso individual de un nuevo concepto el cual se le conoce como <strong>"Componentes"</strong>, esto dentro de <strong>Javascript</strong>.</p>
+            <h3 class="titulos">¿Para qué sirve REACT?</h3>
+            <p class="titulos">React, principalmente se usa para desarrollar páginas web de una manera gratuita y sencilla, gracias a los llamados <strong>componentes</strong> reutilizables. Estos hacen que sea posible utilizar un mismo elemento en diferentes partes o si es requerido en otros sitios web, sin la necesidad de que se vuelva a escribir su código, haciendo que la cantidad de trabajo y tiempo sea reducida notoriamente</p>
+        </div>
+        
+        <div class="col-md-3">
+          <h3 class="titulos">Paginas que usan REACT</h3>
+
+          <div class="card mb-3 cartas">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Proyecto REACT/Resources/img/discord-icono.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Discord</h5>
+                  <p class="card-text">La aplicación Web, de escritorio y de móvil más grande para gaming de estos tiempos usa REACT.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 cartas bg-primary bg-gradient">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Proyecto REACT/Resources/img/icono-fb.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Facebook</h5>
+                  <p class="card-text">Uno de los Sitios Web mas influyentes de los ultimos tiempos, utiliza REACT.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 cartas bg-danger bg-gradient">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Proyecto REACT/Resources/img/ig-icono.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Instagram</h5>
+                  <p class="card-text">Como Facebook, Instagram se opta por usar React para su desarrollo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 cartas bg-success bg-gradient">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Proyecto REACT/Resources/img/shopify-icono.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Shopify</h5>
+                  <p class="card-text">Incluso las Tiendas en linea utilizan REACT para sus paginas web.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

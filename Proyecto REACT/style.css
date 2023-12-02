@@ -22,16 +22,22 @@ body{
 .titulos{
     color: aliceblue;
     opacity: 0;
-    animation: animacionTxts 1s forwards;
+    animation: animacionTxts 2s forwards;
     transition: ease-in .5;
     position: relative;
     overflow: hidden;
 }
 
 @keyframes animacionTxts {
+    100%{transform: translateX(1%) translateY(10%); opacity: 1}
+}
 
-    100%{transform: translateX(20%) translateY(50%); opacity: 1}
+@keyframes animacionCards {
+    100%{transform: translateX(1%) translateY(10%); opacity: 1}
+}
 
+@keyframes animacionCardsHover {
+    25%{width: 27; transform: translateX(7%) translateY(25%); }
 }
 
 .animacion{
@@ -40,4 +46,39 @@ body{
 
 .blur{
     backdrop-filter: blur(4px);
+}
+
+.cartas{
+    background-color:rgb(75, 75, 143);
+    width: 25rem;
+    height: 9.5rem;
+    opacity: 0;
+    animation: animacionCards 1s forwards;
+    box-shadow: 3px 3px 2px;
+}
+
+.cartas:hover{
+    opacity: 1;
+    animation: animacionCardsHover 1s forwards;
+    cursor: pointer;
+}
+
+strong{
+    color: yellow;
+}
+
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h3{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
