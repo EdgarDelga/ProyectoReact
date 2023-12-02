@@ -25,6 +25,7 @@ body{
     animation: animacionTxts 1s forwards;
     transition: ease-in .5;
     position: relative;
+    overflow: hidden;
 }
 
 @keyframes animacionTxts {
@@ -35,4 +36,8 @@ body{
 
 .animacion{
     animation: animacionTxts 1s forwards;
+}
+
+.textoBlur{
+    filter: blur(5px);
 }
