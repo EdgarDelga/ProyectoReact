@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&family=Nova+Square&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+   <!-- NavBar hecho por Edgar Delgadillo Cortez -->
     <nav class="navbar navbar-expand-lg color-nav sticky">
         <div class="container-fluid">
           <a class="navbar-brand color-navTXT" href="https://es.react.dev"> <img src="Resources/img/React-icon.svg.png" alt="Icono de React" class="img-fluid img-nav">
@@ -46,7 +47,7 @@
             </ul>
             <div class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link color-navTXT">Colaboradores</a>
+                    <a href="#Colaboradores" class="nav-link color-navTXT">Colaboradores</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link color-navTXT">FAQ</a>
@@ -55,7 +56,7 @@
           </div>
         </div>
       </nav>
-      <div id="carouselExampleDark" class="carousel carousel-dark slide padding-top">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -96,6 +97,7 @@
     <div class="container-fluid">
       <div class="row padding">
         <div class="col-5">
+           <!-- Contenido "HOME" hecho por Edgar Delgadillo Cortez -->
             <h1 class="titulos" id="Home">REACT</h1>
             <p class="titulos"><em>"Learn React Once and Write Everywhere"</em></p>
         </div>
@@ -113,6 +115,7 @@
             estos pueden contener tanto modelo BackEnd (Recursos Lógicos), como también unna interfaz de usuario, haciendo muy versatil esto.</p>
             <h2 class="titulos">Ejemplos de un Componente</h2>
 
+             <!-- Ejemplos de componentes y renderizado en REACT hecho por Edgar Delgadillo Cortez -->
             <div class=" codigo">
               <div class="codigodentro">
               <p class="comentario">// Esto se le conoce como una Función, se encuentra en Javascript</p>
@@ -150,9 +153,19 @@
             <h1 class="titulos" id="Historia"> <strong>Historia de REACT</strong> </h1>
             <p class="titulos">Jordan Walke siendo un ingeniero de Software en <strong>Facebook</strong>, liberó el primnero prototipo de React llamado "FaxJS", altamente influenciado por XHP de HTML, este fue utilizado por primera vez en el feed de noticias en 2012.</p>
 
+             <!-- Historia de REACT hecho por Edgar Delgadillo Cortez -->
+            <ul class="list-group list-group-flush bg-danger">
+              <li class="list-group-item">2010: Facebook introduce XHP a su stack PHP como <strong>código abierto</strong></li>
+              <li class="list-group-item">2013: Facebook lanza REACT como código abierto</li>
+              <li class="list-group-item">2013: React y JSX se encuentra disponibles para aplicaciones de <strong>Python</strong></li>
+              <li class="list-group-item">2015: <strong>Netflix</strong> anuncia que usará REACT para su desarrollo de interfaz de usuario</li>
+              <li class="list-group-item">2017: Existen diversos programas que reportan errores en REACT para su constante mejora</li>
+            </ul>
+
         </div>
         
         <div class="col-md-3 padding">
+           <!-- Sección derecha hecha por Edgar Delgadillo Cortez -->
           <h3 class="titulos">Paginas que usan REACT</h3>
 
           <div class="card mb-3 cartas">
@@ -225,17 +238,29 @@
     </div>
 
     <div class="footer">
+    <!-- Pie de página hecho por Edgar Delgadillo Cortez -->
+      <div id="img-footer">
 
-      <div class="contentFooter">
-        <p>Todos los derechos reservados</p>
-        <p>Edgar Delgadillo Cortez</p>
-        <p>(NOMBRE)</p>
-        <p>(NOMBRE)</p>
-        <p>FES ARAGON UNAM - 2023</p>
+        <div>
+          <img src="/Proyecto REACT/Resources/img/fes-aragon-unam-logo.png" alt="Logo de la UNAM" class="img-fluid" id="unam">
+        </div>
+
+        <div class="contentFooter">
+          <h3><strong>Programación Web 1</strong></h3>
+          <p>María Elena Ortiz Jimenez</p>
+          <p>Grupo: 1509</p>
+        </div>
       </div>
 
+      <div class="contentFooter">
+        <p id="Colaboradores">Todos los derechos reservados</p>
+        <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Edgar Delgadillo Cortez</a></p>
+        <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">(NOMBRE)</a></p>
+        <p><a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">(NOMBRE)</a></p>
+      </div>
 
     </div>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

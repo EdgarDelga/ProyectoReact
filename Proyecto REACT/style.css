@@ -133,6 +133,9 @@ em{
 .footer{
     margin-top: 10rem;
     padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .contentFooter{
@@ -160,4 +163,21 @@ em{
 
 .carousel{
     padding-top: 3.5rem;
+}
+
+#unam{
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+#img-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item{
+    background-color: rgb(7, 53, 85);
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
 }
