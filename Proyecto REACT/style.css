@@ -12,7 +12,7 @@ body {
 }
 
 .color-nav{
-    background-color: rgb(14, 39, 95) ;
+    background-color: #0e275f ;
 }
 
 .color-navTXT{
@@ -189,4 +189,14 @@ em{
 
 .zoom:hover{
     transform: scale(1.5);
+}
+
+.form-label{
+    color:aliceblue;
+}
+
+#form{
+    background-color:#0e275f;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
