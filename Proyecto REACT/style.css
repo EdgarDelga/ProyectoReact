@@ -1,8 +1,6 @@
-body{
-    background-color: rgb(5, 23, 36);
-    margin: 0rem;
-    padding: 0rem;
-}
+body {
+    background-image: url(Resources/img/Polygon_Navy_Wallpaper.jpg);
+  }
 
 .img-nav{
     width: 40px;
@@ -14,7 +12,7 @@ body{
 }
 
 .color-nav{
-    background-color: rgb(10, 29, 43) ;
+    background-color: rgb(14, 39, 95) ;
 }
 
 .color-navTXT{
@@ -87,7 +85,8 @@ h3{
 }
 
 p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue
 }
 
 em{
@@ -186,3 +185,13 @@ em{
     width: 17rem;
     height: 15rem;
 }
+.zoom{
+    padding: 10px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
