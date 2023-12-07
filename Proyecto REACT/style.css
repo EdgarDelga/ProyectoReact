@@ -1,8 +1,6 @@
-body{
-    background-color: rgb(5, 23, 36);
-    margin: 0rem;
-    padding: 0rem;
-}
+body {
+    background-image: url(Resources/img/Color_Navy_Wallpaper_1.jpg);
+  }
 
 .img-nav{
     width: 40px;
