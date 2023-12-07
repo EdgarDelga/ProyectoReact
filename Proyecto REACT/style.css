@@ -181,6 +181,10 @@ em{
     font-family:'Times New Roman', Times, serif;
 }
 
+#Githubimg{
+    width: 17rem;
+    height: 15rem;
+}
 .zoom{
     padding: 10px;
     transition: transform .2s;
@@ -190,6 +194,7 @@ em{
 .zoom:hover{
     transform: scale(1.5);
 }
+
 
 .form-label{
     color:aliceblue;
