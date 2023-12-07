@@ -205,10 +205,13 @@ em{
 #msj{
     margin-left: 43rem;
 }
-
 #Githubimg{
     
     margin-left: 60rem;
     width: 17rem;
    
+}
+
+#carrusel{
+    color: black !important;
 }
